@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "222118064795",
+    "firebase_url": "https://hello-world-38bc8.firebaseio.com",
+    "project_id": "hello-world-38bc8",
+    "storage_bucket": "hello-world-38bc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222118064795:android:1b0c9a3f2d7d2f0f194c3e",
+        "android_client_info": {
+          "package_name": "ir.saelozahra.banooyar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222118064795-ndorn57acjata8e5i01some1iulkhqeg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATa4M481DoHE2HUV1umndcToIRFK-LgTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222118064795-ndorn57acjata8e5i01some1iulkhqeg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

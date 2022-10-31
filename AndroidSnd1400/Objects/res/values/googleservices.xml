@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="firebase_database_url" translatable="false">https://hello-world-38bc8.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">222118064795</string>
+  <string name="google_storage_bucket" translatable="false">hello-world-38bc8.appspot.com</string>
+  <string name="project_id" translatable="false">hello-world-38bc8</string>
+  <string name="google_app_id" translatable="false">1:222118064795:android:1b0c9a3f2d7d2f0f194c3e</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyATa4M481DoHE2HUV1umndcToIRFK-LgTE</string>
+  <string name="google_api_key" translatable="false">AIzaSyATa4M481DoHE2HUV1umndcToIRFK-LgTE</string>
+  <string name="default_web_client_id" translatable="false">222118064795-ndorn57acjata8e5i01some1iulkhqeg.apps.googleusercontent.com</string>
+</resources>

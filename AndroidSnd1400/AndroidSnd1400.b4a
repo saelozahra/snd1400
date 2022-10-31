@@ -1,0 +1,230 @@
+﻿Build1=Default,ir.saelozahra.snd1400
+File1=AdminsLayout.bal
+File10=CandidateListLayout.bal
+File11=CandidatePanelLayout.bal
+File12=db.db
+File13=ElectionLayout.bal
+File14=GoogleMapStyle.txt
+File15=HomeLayout.bal
+File16=location.png
+File17=MapLayout.bal
+File18=oskol.jpg
+File19=oskol.png
+File2=box.jpg
+File20=page1.jpg
+File21=samim-bold-fd-wol.ttf
+File22=samim-fd-wol.ttf
+File23=seprate.png
+File24=SingleCandidateLayout.bal
+File25=slider_1.html
+File26=slider_2.html
+File27=SVLayout.bal
+File28=thing_for_shoabe.png
+File29=toolbar.jpg
+File3=btn.png
+File4=btn1.png
+File5=btn2.png
+File6=btn3.png
+File7=btn33.png
+File8=btn-hov.png
+File9=camera.png
+FileGroup1=Layout
+FileGroup10=Layout
+FileGroup11=Layout
+FileGroup12=Default Group
+FileGroup13=Layout
+FileGroup14=Default Group
+FileGroup15=Layout
+FileGroup16=IMG
+FileGroup17=Layout
+FileGroup18=Default Group
+FileGroup19=IMG
+FileGroup2=IMG
+FileGroup20=IMG
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=IMG
+FileGroup24=Layout
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Layout
+FileGroup28=IMG
+FileGroup29=IMG
+FileGroup3=IMG
+FileGroup4=IMG
+FileGroup5=IMG
+FileGroup6=IMG
+FileGroup7=IMG
+FileGroup8=IMG
+FileGroup9=IMG
+Group=Default Group
+Library1=abzxing
+Library10=firebasenotifications
+Library11=googlemaps
+Library12=googlemapsextras
+Library13=gps
+Library14=hitex_coordinatorlayout
+Library15=hitex_materialx
+Library16=ime
+Library17=javaobject
+Library18=jk_materialdatetimepicker
+Library19=json
+Library2=ahoyonboarding
+Library20=notificationbuilder
+Library21=okhttputils2
+Library22=phone
+Library23=reflection
+Library24=runtimepermissions
+Library25=sql
+Library26=xmllayoutbuilder
+Library27=xui
+Library3=amir_activityslider
+Library4=appcompat
+Library5=b4xcollections
+Library6=camera
+Library7=core
+Library8=dateutils
+Library9=dialogs
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="29"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~'SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~~\n~~\n~SetApplicationAttribute(android:icon, "@mipmap/ic_launcher")~\n~CreateResource(mipmap-anydpi-v26, ic_launcher.xml,~\n~<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">~\n~    <background android:drawable="@mipmap/background"/>~\n~    <foreground android:drawable="@mipmap/foreground"/>~\n~</adaptive-icon>~\n~)~\n~~\n~~\n~CreateResourceFromFile(Macro, Core.NetworkClearText)~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.GooglePlayBase)~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.Firebase)~\n~CreateResourceFromFile(Macro, FirebaseNotifications.FirebaseNotifications)~\n~'CreateResourceFromFile(Macro, FirebaseAnalytics.FirebaseAnalytics)~\n~~\n~SetActivityAttribute(ElectionAct, android:windowSoftInputMode, adjustResize|stateHidden)~\n~SetActivityAttribute(ElectionAct, android:theme, "@style/NormalAppTheme")~\n~~\n~SetApplicationAttribute(android:theme, "@style/MyAppTheme")~\n~CreateResource(values, theme.xml,~\n~<resources>~\n~~\n~    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">~\n~        <item name="colorPrimary">#FFD5B97B</item>~\n~        <item name="colorPrimaryDark">#FFB89546</item>~\n~        <item name="colorAccent">#FFBB9C5B</item>~\n~    	<item name="colorControlHighlight">#ECDCBE</item>~\n~        <item name="windowNoTitle">true</item>~\n~        <item name="windowActionBar">false</item>~\n~		<item name="android:windowDisablePreview">True</item>~\n~		<item name="android:windowTranslucentNavigation">false</item>~\n~		<item name="android:windowTranslucentStatus">true</item>~\n~    </style>~\n~	~\n~    <style name="Widget.Toolbar" parent="@style/Widget.AppCompat.Toolbar">~\n~        <item name="contentInsetStart">2dp</item>~\n~    </style>~\n~	~\n~    <style name="NormalAppTheme" parent="Theme.AppCompat.Light.NoActionBar">~\n~        <item name="colorPrimary">#FFD5B97B</item>~\n~        <item name="colorPrimaryDark">#FFB89546</item>~\n~        <item name="colorAccent">#FFBB9C5B</item>~\n~    	<item name="colorControlHighlight">#ECDCBE</item>~\n~        <item name="windowNoTitle">true</item>~\n~        <item name="windowActionBar">false</item>~\n~		<item name="android:windowDisablePreview">True</item>~\n~    </style>~\n~	~\n~</resources>~\n~)~\n~~\n~'CreateResource(values, theme.xml,~\n~'<resources>~\n~'    <style name="NormalAppTheme" parent="Theme.AppCompat.Light.NoActionBar">~\n~'        <item name="colorPrimary">#FFD5B97B</item>~\n~'        <item name="colorPrimaryDark">#FFB89546</item>~\n~'        <item name="colorAccent">#FFBB9C5B</item>~\n~'    	<item name="colorControlHighlight">#ECDCBE</item>~\n~'        <item name="windowNoTitle">true</item>~\n~'        <item name="windowActionBar">false</item>~\n~'		<item name="android:windowDisablePreview">True</item>~\n~'    </style>~\n~'</resources>~\n~')~\n~~\n~~\n~AddPermission(android.permission.ACCESS_FINE_LOCATION)~\n~AddPermission(android.permission.ACCESS_COARSE_LOCATION)~\n~AddManifestText(<uses-feature android:name="android.hardware.location.gps"/>)~\n~~\n~AddApplicationText(~\n~<meta-data~\n~  android:name="com.google.android.geo.API_KEY"~\n~  android:value="AIzaSyC0P4XSC-UZoO2wpZ2wfQlQM8P4ErQLljY"/>~\n~)~\n~~\n~AddApplicationText(~\n~<uses-library~\n~      android:name="org.apache.http.legacy"~\n~      android:required="false" />~\n~)~\n~~\n~~\n~
+Module1=AdminsAct
+Module10=SaeloZahra
+Module11=SelectMapACT
+Module12=SingleCandidateAct
+Module13=Starter
+Module2=CandidaListAct
+Module3=DoubleTaptoClose
+Module4=ElectionAct
+Module5=FirebaseMessaging
+Module6=HomeAct
+Module7=NotificationAct
+Module8=QRForScanAct
+Module9=QRGenerator
+NumberOfFiles=29
+NumberOfLibraries=27
+NumberOfModules=13
+Version=10.6
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: SND 1400
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+#End Region
+
+#AdditionalJar: com.android.support:support-v4
+#AdditionalJar: com.android.support:design
+#AdditionalJar	: androidx.constraintlayout:constraintlayout
+#Extends		: com.onboarder.AhoyOnboarderActivity
+#AdditionalRes: ..\intro_resource
+#AdditionalRes: ..\CoordinatorRes
+#AdditionalRes: ..\Resource
+#MultiDex		: true
+
+Sub Process_Globals
+	Dim AppOpenCount As Int = 0
+End Sub
+
+Sub Globals
+	Dim AC As AppCompat
+	Dim DTTC As DoubleTaptoClose
+	Dim Show 	As Amir_SliderShow
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	
+	DTTC.InItIaLiZe("مجددا دکمه خروج را بزنید")
+	
+	SaeloZahra.MaterialActionBarHeight 	=	AC.GetMaterialActionBarHeight
+	SaeloZahra.StatusBarHeight 			=	AC.GetStatusBarHeight
+	
+	SaeloZahra.Color		 			=	AC.GetThemeAttribute("colorPrimary")
+	SaeloZahra.ColorDark	 			=	AC.GetThemeAttribute("colorPrimaryDark")
+	SaeloZahra.ColorAccent	 			=	AC.GetThemeAttribute("colorAccent")
+	
+	Dim l As List
+	l.Initialize
+	
+	Dim c,c1,c2 As AhoyOnboarderCard
+	Dim p As AhoyOnboarding
+	p.Initialize("p")
+	
+	l.Add(c.AddCard("SND1400" , "سامانه جامع نوبت دهی انتخابات 1400","wallet"))
+	c.setBackgroundColor(Colors.ARGB(40,0,0,0))
+	c.setTitleColor(Colors.White)
+	c.setDescriptionColor(Colors.rgb(238,238,238))
+	c.setTitleTextSize(p.dpToPixels(12))
+	c.setDescriptionTextSize(p.dpToPixels(8))
+	
+	l.Add(c1.AddCard("عملکرد","برای خودتان و خانواده تان"&CRLF&"نزدیک ترین شعبه را در خلوت ترین ساعت رزرو کنید.","chalk"))
+	c1.setBackgroundColor(Colors.ARGB(40,0,0,0))
+	c1.setTitleColor(Colors.White)
+	c1.setDescriptionColor(Colors.rgb(238,238,238))
+	c1.setTitleTextSize(p.dpToPixels(12))
+	c1.setDescriptionTextSize(p.dpToPixels(8))
+	
+	l.Add(c2.AddCard("ناتوانی","اگه به هر دلیلی مثل بیماری، نمیتونین به شعب اخذ رای برین، به ما اطلاع بدین تا صندوق صیار رو بیاریم درب منزل شما"&CRLF&"در عرض چند دقیقه "&CRLF&"یه فروشنده بشید و محصولاتتون رو اینجا بفروشید","blindpng"))
+	c2.setBackgroundColor(Colors.ARGB(40,0,0,0))
+	c2.setTitleColor(Colors.White)
+	c2.setDescriptionColor(Colors.rgb(238,238,238))
+	c2.setTitleTextSize(p.dpToPixels(12))
+	c2.setDescriptionTextSize(p.dpToPixels(8))
+	
+	p.FinishButtonTitle= "شروع به کار"
+	p.showNavigationControls(True)
+	p.setGradientBackground
+		
+	p.Font = Typeface.LoadFromAssets("samim-fd-wol.ttf")
+	
+	p.StartOnboardPages = l
+
+	
+	OpenAppCounter
+	
+End Sub
+
+Sub p_onFinishButtonPressed
+	Activity.Finish
+	SaeloZahra.SetAnimation("zoom_exit","zoom_enter")
+	Show.convertActivityFromTranslucent
+	StartActivity(HomeAct)
+End Sub
+
+Sub OpenAppCounter
+	
+	If File.Exists(SaeloZahra.Dir,"AppOpenCount") Then
+		AppOpenCount = File.ReadString(SaeloZahra.Dir,"AppOpenCount")
+	End If
+	
+	File.WriteString(SaeloZahra.Dir,"AppOpenCount",AppOpenCount+1)
+	
+	Log("AppOpenCount: "&AppOpenCount)
+	
+'	If AppOpenCount>0 And Not(SaeloZahra.Debug) Then
+'		p_onFinishButtonPressed
+'	End If
+
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Sub Activity_KeyPress (KeyCode As Int) As Boolean
+	If KeyCode = KeyCodes.KEYCODE_BACK Then
+		DTTC.TapToClose
+		Return True
+	Else
+		Return False
+	End If
+End Sub

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFD5B97B</item>
+        <item name="colorPrimaryDark">#FFB89546</item>
+        <item name="colorAccent">#FFBB9C5B</item>
+    	<item name="colorControlHighlight">#ECDCBE</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+		<item name="android:windowDisablePreview">True</item>
+		<item name="android:windowTranslucentNavigation">false</item>
+		<item name="android:windowTranslucentStatus">true</item>
+    </style>
+	
+    <style name="Widget.Toolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">2dp</item>
+    </style>
+	
+    <style name="NormalAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFD5B97B</item>
+        <item name="colorPrimaryDark">#FFB89546</item>
+        <item name="colorAccent">#FFBB9C5B</item>
+    	<item name="colorControlHighlight">#ECDCBE</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+		<item name="android:windowDisablePreview">True</item>
+    </style>
+	
+</resources>
